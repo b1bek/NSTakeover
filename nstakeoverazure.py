@@ -12,7 +12,7 @@ available_rg = ['australiacentral','australiacentral2','australiaeast','australi
 randomness = random.randint(0000,9999)
 n = len(sys.argv)
 if n <= 2:
-    print(f"{Red}Error! Correct arguments not provided{Default} \nExample: python3 aznstakeover.py vulnerable.example.com 02")
+    print(f"{Red}Error! Correct arguments not provided{Default} \nExample: python3 nstakeoverazure.py vulnerable.example.com 02")
     exit(1)
 
 if subprocess.run('az',stderr=subprocess.DEVNULL,stdout=subprocess.DEVNULL,shell=True).returncode != 0:
