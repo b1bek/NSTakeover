@@ -8,6 +8,7 @@ Takeover domains vulnerable to Name Server takeover pointing to Azure DNS.
 ## Prerequisites
 
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+  `pip3 install azure-cli==2.4.0`
 - Python3
 
 ## Usage:
