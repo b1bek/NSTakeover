@@ -24,7 +24,7 @@ hackmeplease.tk.            5       IN      NS      ns2-35.azure-dns.net.
 hackmeplease.tk.            5       IN      NS      ns3-35.azure-dns.org.
 hackmeplease.tk.            5       IN      NS      ns4-35.azure-dns.info.
 ```
-
+Note: To find nameservers of `SERVFAIL` status domain/subdomain, use command `dig +trace hackmeplease.tk`
 
 ```bash
 $ python3 nstakeoverazure.py hackmeplease.tk 35
