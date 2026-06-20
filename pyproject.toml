@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nstakeover-azure"
+version = "1.0.0"
+description = "Azure DNS nameserver allocation matcher for authorized takeover validation."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "NSTakeover contributors" }
+]
+dependencies = []
+
+[project.scripts]
+nstakeover = "nstakeover.cli:main"
+nstakeoverazure = "nstakeover.cli:main"
+
+[tool.setuptools]
+packages = ["nstakeover"]
